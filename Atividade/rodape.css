@@ -1,0 +1,138 @@
+body{
+    margin: 0; /*Remove a margem padrao do navegador*/
+}
+ul{
+    list-style: none;  /*Muda as bolinha de topicos para "quadrado"*/
+padding: 0; /*remove o espaço interno da lista*/
+/* transition: all 8s; */
+}
+
+.sla1{
+padding: 0 20px; /*adiciona espaçamento interno a esquerda e a direita*/
+justify-content: space-between;
+align-items: end;
+}
+
+h1, p{
+
+color: #000; /*define cor dos textos*/
+/* transition: all 3s; */
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+li{
+padding: 0 20px;
+/* transition: all 3s; */
+}
+
+
+li:hover, h1:hover{
+cursor: pointer; /*some o mouse e aparece uma maozinha*/
+    opacity: 0.8; /*deixa o item mais claro ao passar o mouse*/
+background-color: grey;
+}
+.sla2{
+    color: #fff;
+padding: 0 20px; /*adiciona espaçamento interno a esquerda e a direita*/
+justify-content: space-evenly;
+align-items: normal;
+}
+.sla2 h1 {
+    margin-right: 500px;
+}
+.ul li {
+    margin-right: -20px;
+}
+.sla2 input {
+    margin-left: 20px;
+}
+h3{
+align-items: center;
+margin-left: 540px;
+}
+.pao1{
+    color: black;
+}   
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 50px 10px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: auto;
+    margin: auto;
+}
+.footer-logo h2{
+    margin: 0;  
+    color: white; 
+}
+.footer-logo p{
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.footer-contact  h3{
+    margin: 10px; /*da um espaço abaixo dos subtitulos*/
+    color: white;
+    margin-right: 250px;
+}
+.footer-contact p{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 10px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.social-icons a{
+color: #fff ;
+margin-right: 15px;
+font-size: 20px;
+transition: 0.7s;
+}
+.social-icons a:hover{
+    color: #00bcd4;
+}
+h3{
+margin-left: 10px;
+}
+.footer-social h3{
+    margin-right: 150px;
+    color: white;
+}
+.lista p{
+    margin-top: -5px;
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.lista p:hover{
+color: grey;
+}
+.footer-contact p:hover{
+    color: grey;
+}
+.footer-logo p:hover{
+    color: grey;
+}
+.footer-social{
+    transition: 0.8s;
+    color: grey;
+}
+.footer-social i:hover,.footer-social a:hover{
+    color: white;
+}
+.footer-social a, i:hover{
+    color: grey;
+}
+.footer-social i, a{
+    cursor: pointer;
+}
